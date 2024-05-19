@@ -2,5 +2,5 @@
 </script>
 
 <template>
-    <h1 class="text-center text-xl">Instructions</h1>
+    <h1 class="text-center text-xl">Work in progress</h1>
 </template>

@@ -6,7 +6,7 @@
 
 <template>
     <Navbar />
-    <!-- <Instructions /> -->
+    <Instructions />
     <Input />
 </template>
 
