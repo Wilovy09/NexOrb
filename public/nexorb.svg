@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<svg viewBox="51.124 128.652 397.752 242.696" width="397.752" height="242.696" xmlns="http://www.w3.org/2000/svg" xmlns:bx="https://boxy-svg.com">
-  <defs>
-    <style bx:fonts="Noto Sans Carian">@import url(https://fonts.googleapis.com/css2?family=Noto+Sans+Carian%3Aital%2Cwght%400%2C400&amp;display=swap);</style>
-  </defs>
-  <ellipse style="fill: rgba(255, 255, 255, 0); stroke-width: 3px; stroke: rgb(255, 255, 255);" cx="175.562" cy="250" rx="124.438" ry="121.348" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, -2.842170943040401e-14, 0)"/>
-  <ellipse style="stroke-width: 3px; fill: rgba(255, 255, 255, 0); stroke: rgb(255, 255, 255);" cx="324.438" cy="250" rx="124.438" ry="121.348" transform="matrix(0.9999999999999999, 0, 0, 0.9999999999999999, -2.842170943040401e-14, 0)"/>
-  <text style="fill: rgb(255, 255, 255); font-family: 'Noto Sans Carian'; font-size: 15.7px; white-space: pre;" transform="matrix(3.508916854858398, 0, 0, 5.634729862213135, -589.9857177734375, -1137.0159912109373)" x="200" y="251.685">NEX O RBS</text>
-</svg>
