@@ -2,8 +2,6 @@
 
 Es una herramienta que admite código html estilizado con TailwindCSS y te devuelve una clase de css con el estilo que le corresponde.
 
-## Tailwind
-
 Sabemos que con CSS se puede hacer lo mismo y hacerlo 1000 veces mejor, pero tampoco esta mal usar Tailwind, es una herramienta que te permite desarrollar muy rapido.
 
 La idea es poder seguir usando clases como Tailwind, pero tener una clase `maestra` en la que puedas englobar todas tus clases en un archivo CSS, asi solo dejas en el codigo tu clase maestra
@@ -21,7 +19,16 @@ La idea es poder seguir usando clases como Tailwind, pero tener una clase `maest
 }
 ```
 
+```html
+<!-- Ahora puedes quitar las clases de TailwindCSS -->
+<h1 class="titulo">Hello NexOrb</h1>
+```
+
 Básicamente, la idea es que puedas escribir tu código con Tailwind y que NexOrb te devuelva una clase con el estilo que le corresponde.
+
+Este video de aqui es la primera versión de NexOrb, en la que puedes ver como ``funciona``.
+
+![Primera versión de NexOrb](./public/NexOrb-alpha-0.0.1.gif)
 
 ## TODO
 
