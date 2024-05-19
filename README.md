@@ -1,33 +1,30 @@
-# nexorb
+# NexOrb
 
-This template should help get you started developing with Vue 3 in Vite.
+Es una herramienta que admite código html estilizado con TailwindCSS y te devuelve una clase de css con el estilo que le corresponde.
 
-## Recommended IDE Setup
+## Tailwind
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Sabemos que con CSS se puede hacer lo mismo y hacerlo 1000 veces mejor, pero tampoco esta mal usar Tailwind, es una herramienta que te permite desarrollar muy rapido.
 
-## Type Support for `.vue` Imports in TS
+La idea es poder seguir usando clases como Tailwind, pero tener una clase `maestra` en la que puedas englobar todas tus clases en un archivo CSS, asi solo dejas en el codigo tu clase maestra
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
-
-```sh
-pnpm install
+```html
+<h1 class="titulo{ text-center text-red-500 }">Hello NexOrb</h1>
 ```
 
-### Compile and Hot-Reload for Development
-
-```sh
-pnpm dev
+```css
+/* CSS generado */
+.titulo{
+  text-align:center;
+  --tw-text-opacity: 1;
+  color: rgb(239 68 68 / var(--tw-text-opacity));
+}
 ```
 
-### Type-Check, Compile and Minify for Production
+Básicamente, la idea es que puedas escribir tu código con Tailwind y que NexOrb te devuelva una clase con el estilo que le corresponde.
 
-```sh
-pnpm build
-```
+## TODO
+
+* [x] Crear la web básica
+* [ ] Crear un parser para Tailwind
+* [ ] Crear un paquete npm
