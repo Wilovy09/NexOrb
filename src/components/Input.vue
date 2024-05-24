@@ -2,6 +2,7 @@
     import { ref, onMounted, watch } from 'vue';
     import * as monaco from 'monaco-editor';
     import HtmlWorker from 'monaco-editor/esm/vs/language/html/html.worker?worker';
+    import { generateCss } from '@/helpers/generateCss';
 
     const output: any = ref('');
     let input: any = ref('');
@@ -15,8 +16,11 @@
         }
     };
 
-    watch(input, (newValue) => {
-        output.value = newValue;
+    watch(input, (newValue: any) => {
+        const css = async()=>{
+            await generateCss(newValue);
+        }
+        output.value = css;
     });
 
     // Crear el editor de Monaco una vez que el componente se haya montado
@@ -40,8 +44,6 @@
             });
         }
     });
-
-    // https://github.com/Devzstudio/tailwind_to_css/blob/main/libs/helpers.ts
 </script>
 
 <template>
