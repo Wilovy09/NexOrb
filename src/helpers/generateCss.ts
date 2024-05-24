@@ -7,7 +7,7 @@ const generateTailwindConfig = (htmlContent: any) => ({
         extend: {},
     },
     corePlugins: {
-        preflight: false, // Deshabilita el reinicio de estilos base
+        preflight: false,
     },
     plugins: [],
 });
